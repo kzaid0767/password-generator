@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    background: #939799;;
+}
+
+.container{
+    background-color:#273549 ;;
+    border: 5px solid white;
+    border-radius: 10px;
+    width: 500px;
+    height: 380px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+
+.sub-container1, .sub-container2{
+    background-color:#273549 ;
+}
+
+.sub-container2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-container3{
+    display: flex;
+    justify-content:space-around;
+}
+
+
+.firsth1{
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 0;
+}
+
+.secondh1{
+    color:#10B981 ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+button{
+    color:#FFFFFF;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background: #10B981;
+    border: none;
+    width: 160px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+h3{
+    color: #939799;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 0;
+}
+label{
+    color: #939799;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+hr{
+    background-color: #939799;
+    margin-bottom: 30px;
+}
+
+form{
+    margin-bottom: 20px;;
+}
+
+
+.pass{
+    color: #10B981;
+    width: 240px;
+    height: 30px;
+    font-size: 20px;
+    background:rgb(60, 60, 68);
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-style: none;
+}
