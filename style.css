@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     margin: 0;
     background: #939799;;
@@ -6,13 +10,13 @@ body{
 .container{
     background-color:#273549 ;;
     border: 5px solid white;
-    border-radius: 10px;
-    width: 500px;
-    height: 380px;
-    margin-top: 100px;
+    border-radius: 0.625rem;
+    width: 34rem;
+    height: 27rem;
+    margin-top: 6.25rem;
     margin-left: auto;
     margin-right: auto;
-    padding: 30px;
+    padding: 1.875rem;
 }
 
 .sub-container1, .sub-container2{
@@ -48,11 +52,11 @@ button{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     background: #10B981;
     border: none;
-    width: 160px;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    width: 10rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     border-radius: 5px;
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
 }
 
 h3{
@@ -67,7 +71,7 @@ label{
 
 hr{
     background-color: #939799;
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
 }
 
 form{
@@ -77,12 +81,30 @@ form{
 
 .pass{
     color: #10B981;
-    width: 240px;
-    height: 30px;
-    font-size: 20px;
+    /* width: 15rem; */
+    height: 1.875rem;
+    font-size: 1.25rem;
     background:rgb(60, 60, 68);
     border-radius: 5px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     border-style: none;
+}
+
+@media (max-width: 548px) {
+    .container{
+        width: 90vw;
+        height: 38rem;
+        align-self: center;
+    }
+
+    .small-screens{
+        flex-direction: column;
+    }
+}
+
+@media (max-width:308px) {
+    .container{
+        height: 40rem;
+    }
 }
